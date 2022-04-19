@@ -53,4 +53,12 @@ public class Triangle {
      }
     }
 
+    @Override
+    public String toString() {
+        return "Triangle{" +
+                "sideA=" + sideA +
+                ", sideB=" + sideB +
+                ", sideC=" + sideC +
+                '}';
+    }
 }
